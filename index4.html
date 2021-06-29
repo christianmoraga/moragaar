@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+<style>
+  * {
+  box-sizing: border-box;
+}
+#Logo{
+  /* width: 25%; */
+   /* padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    left: 0px;
+    top:0px;*/
+    
+    
+    border:1px solid #111111;
+    
+}
+
+#Slogan{
+    text-align: right;
+    padding-right: 1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    
+}
+#Encabezado{
+ 
+  /* width: 50%; */
+
+   /* padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    left: 0px;
+    top:0px;*/
+    
+   /* border:1px solid #111111;*/
+    }
+
+#DatosContactos{
+
+    /* width: 25%; */
+    right: 35px;
+    top:30px;
+   /* border:1px solid #111111;*/
+    
+   /* text-align: right;*/
+    font-size:1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: left;
+    padding-top: 2em;
+    padding-left: 15em;
+}
+
+li {
+  list-style: none;
+  background-image: url("/images/institucional/CirculoM.png");
+  background-repeat: no-repeat;
+  text-align: left;
+  text-overflow: clip;
+  padding-left: 3em;
+  /*background-position: left center;*/
+}
+
+#BarraNavegacion{
+ 
+border:1px solid #333333;
+
+}
+#Buscador{
+  /* width: 100%; */
+border:1px solid #333333;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  box-sizing: border-box;
+  float: left;
+  width: 33%;
+ }
+
+</style>
+</head>
+<body>
+
+
+<div class="row">  
+  <div class="column" id="Logo">
+    <div><img src="/images/institucional/logotipo.png" alt="Christian Moraga Negocios inmobiliarios" style="width: 100%;" ></div>
+    <div id="Slogan">Soluciones inmobiliarias</div>
+  </div>
+    
+<div class="column" id="Encabezado">Encontra tu propiedad</div>
+  <div id="DatosContactos" class="column">
+       
+    <li>Móvil: +54 11 3058 9051</li></br>
+            <li><a href = "mailto: moraga@tuprop.ar">moraga@tuprop.ar</a></li></br>
+            <li>Salta 461 - Sarandí - Prov. de Bs. As.</li></br>
+       
+  </div>
+</div>
+<div class="row" >
+  <div id="BarraNavegacion" class="column">
+   <div> <input id="Buscador" type="text" placeholder="Buscar propiedad"></div>
+</div>
+<div class="column" id="Principal"></div>
+</div>
+</body>
